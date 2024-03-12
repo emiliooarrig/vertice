@@ -50,6 +50,10 @@ body{
     .sobre-mi .contenedor{
         flex-direction: column;
     }
+
+    .sobre-mi .columna{
+        width: 75%;
+    }
 }
 
 
