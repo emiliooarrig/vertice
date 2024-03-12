@@ -1,0 +1,22 @@
+footer .contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    background-color: aliceblue;
+    height: 100px;
+}
+
+i{
+    font-size: 40px;
+    color: #000;
+    transition: .2s linear;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+i:hover{
+    color: #fff;
+    transition: .2s linear;
+    background-color: blue;
+}

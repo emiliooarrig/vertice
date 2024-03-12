@@ -1,0 +1,25 @@
+
+.div-contacto{
+    height: 900px;
+    width: 100%;
+}
+
+.contacto{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: 100%;
+}
+
+.columna{
+    height: fit-content;
+    width: 50%;
+    text-align: center;
+}
+
+@media (max-width: 450px){
+    .contacto{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Montserrat';
+}
+
+.titulo-sobre-mi{
+    font-weight: 800;
+    font-style: italic;
+    text-align: center;
+}
+.sobre-mi{
+    height: 500px;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.sobre-mi .contenedor{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sobre-mi .columna{
+    width: 100%;
+    text-align: center;
+}
+
+
+.div-voto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.h1-vota{
+    font-size: 100px;
+    font-weight: 900;
+}
+
+@media (max-width: 450px) {
+    
+    .sobre-mi .contenedor{
+        flex-direction: column;
+    }
+}
+
+
